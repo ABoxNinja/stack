@@ -46,9 +46,8 @@ int main()
             }
         
             if (strcmp(input, "hello\n") == 0) {
-            
-            printf("%s\n", nbfr);
-            nl();
+                printf("%s\n", nbfr);
+                nl();
             }else if ((strcmp(input ,"\n"))==0)
             {
                 nl();
