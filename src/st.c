@@ -3,6 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 #include "include/commands.h"
+#include "commands/list.h"
+#include <signal.h>
 
 int main()
 {
@@ -36,6 +38,14 @@ int main()
             {
                 help();
                 nl();
+            }
+            else if((strcmp(input,"kill\n"))==0)
+            {
+                system("exit");
+            }
+            else if ((strcmp(input,"testExec\n"))==0)
+            {
+                startProgram(testExecPath);
             }
             else if ((strcmp(input ,"\n"))==0)
             {
