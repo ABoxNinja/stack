@@ -36,4 +36,10 @@ void help()
     printf("\e[1;34m info\e[0m"); printf("\e[0;30m  return terminal info\e[0m\n");
     printf("\e[1;34m help\e[0m"); printf("\e[0;30m  current command\e[0m\n");
 }
+
+void startProgram(char execPath[256])
+{
+    system(execPath);
+}
+
 #endif
