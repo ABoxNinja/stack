@@ -5,5 +5,7 @@ Stack is a custom terminal for windows. Stack isn't a terminal GUI it's just a m
 2. clean `clears the output`
 3. clear `clears the output`
 4. help `list of commands`
-5. ping `test command`
-6. pong `test command`
+
+# features
+* can run your executables in the stack terminal without exiting
+* runs all your custom printing commands both in the headers and outside
